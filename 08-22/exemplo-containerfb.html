@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Container</title>
+    <style>
+        /* Container */
+        .ctn1 {
+            display: flex;
+            /* Dizer que eu to criando um container*/
+            flex-direction: row;
+            /* Container na Linha */
+            border: 2px solid;
+            justify-content: space-around;
+        }
+
+        /* Item dentro do container */
+        .flex-item {
+            border: 1px solid greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo de Container com itens</h1>
+    <p>teste</p>
+    <section>
+        <p>Item 1 | </p>
+        <p>Item 2 | </p>
+    </section>
+
+    <section class="ctn1">
+        <p class="flex-item">Item 1 | </p>
+        <p class="flex-item"> Item 2 | </p>
+    </section>
+</body>
+
+</html>
