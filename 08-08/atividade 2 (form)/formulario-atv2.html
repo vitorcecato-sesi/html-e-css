@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="atv2.css">
+</head>
+
+<body>
+    <div>
+        <h1>Informações do Usuário</h1>
+        <form action="submit-atv2.html" method="get">
+            <label for="nome" class="labelmarg">Nome:</label>
+            <input type="text" name="nome" id="nome" maxlength="30" placeholder="Digite seu nome..." required>
+            <br>
+            <br>
+            <label for="email" class="labelmarg">Email:</label>
+            <input type="email" name="email" id="email" placeholder="exemplo@email.com" required>
+            <br>
+            <br>
+            <label for="idade" class="labelmarg">Idade:</label>
+            <input type="number" name="idade" id="idade" min="10" max="80" placeholder="Insira sua idade..." required>
+            <br>
+            <br>
+            <label for="senha" class="labelmarg">Senha:</label>
+            <input type="password" name="senha" id="senha" maxlength="5" placeholder="12345" required>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+/* 
+Algoritimo  : Atividade - HTML
+Disciplina  : [Desenvolvimento de Sistemas]
+Professor   : Antonio Tupinamba e Leandro Grosso
+Descrição   : Atividade .
+Autor(a)    : Laura Betti Migliaccio; Lucas Casagrande da Silva; Milena Oliveira; Pietro Melle; Pyetro Joaquim Taborda Nunes; Vitor Geraldo Cecato.
+Data atual  : 08/08/2024
+*/
+
+body {
+    background-color: bisque;
+}
+
+/* Imagem inicio do site */
+.form-img {
+    float: left;
+}
+
+/* Bloco da introdução do site */
+.form-intro {
+    background-color: greenyellow;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+/* Lista de opção (links) */
+.form-lista1 {
+    background-color: greenyellow;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    width: 10%;
+}
+
+/* Bloco de texto 1 */
+.form-bloco1 {
+    background-color: red;
+    border: 2px solid black;
+    padding: 20px;
+    width: 60%;
+    margin-top: -14%;
+    text-align: justify;
+}
+
+/* Imagem bloco 1 */
+.form-img2 {
+    float: left;
+    width: 300px;
+    height: 200px;
+    border-radius: 25%;
+    margin-right: 20px;
+}
+
+/* Bloco de texto 2 */
+.form-bloco2 {
+    background-color: orange;
+    border: 2px solid black;
+    padding: 20px;
+    width: 60%;
+    text-align: justify;
+}
+
+/* Imagem bloco 2 */
+.form-img3 {
+    float: right;
+    width: 170px;
+    height: 170px;
+    margin-left: 20px;
+}
+
+/* Lista ordenada - Promoções */
+.form-lista2 {
+    background-color: greenyellow;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    width: 12%;
+    float: right;
+    margin-top: -32.8%;
+}
+
+/* Rodape - Contato */
+.form-rodape {
+    background-color: red;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
