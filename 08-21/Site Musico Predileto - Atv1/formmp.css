@@ -1,0 +1,169 @@
+/* Corpo da página */
+body {
+    background-color: #F9CD5C;
+}
+
+/* Forma da caixa do login */
+
+.box-form {
+    background-color: #F1E8BD;
+    border: 2px solid #E6AA0F;
+    border-radius: 4vw;
+    margin-top: 10.5%;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    width: 21vw;
+    padding: 1vw;
+    text-align: center;
+    overflow: auto;
+}
+
+/* Texto da caixa no login */
+
+.box-text {
+
+    font-family: Arial;
+    font-size: 2.5vw;
+    overflow: auto;
+
+
+}
+
+/* Botões de nome, email, senha na caixa */
+
+.box-input {
+    border: 2px solid #F1C248;
+    border-radius: 0.4vw;
+    margin: auto;
+    padding: 0.7vw;
+    width: 13.5vw;
+
+}
+
+/* Botão da idade na caixa */
+
+.box-inputage {
+    border: 2px solid #F1C248;
+    border-radius: 0.4vw;
+    padding: 0.7vw;
+    margin: auto;
+    width: 13.5vw;
+    overflow: auto;
+}
+
+/* Botão de login */
+
+.box-button {
+    margin-bottom: -2%;
+    background-color: #FAC710;
+    border: 2px solid #FAC710;
+    border-radius: 0.6vw;
+    color: white;
+    padding: 0.7vw 2.7vw;
+}
+
+/* Responsivo (800px <)*/
+
+@media screen and (max-width: 800px) {
+
+    .box-form {
+        background-color: #F1E8BD;
+        border: 2px solid #E6AA0F;
+        border-radius: 4vw;
+        margin-top: 22.5%;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        width: 35vw;
+        padding: 1vw;
+        text-align: center;
+        overflow: auto;
+    }
+
+    .box-text {
+
+        font-family: Arial;
+        font-size: 2.5vw;
+
+
+    }
+
+    .box-input {
+        border: 2px solid #F1C248;
+        border-radius: 0.4vw;
+        margin: auto;
+        padding: 0.7vw;
+        width: 20vw;
+    }
+
+    .box-inputage {
+        border: 2px solid #F1C248;
+        border-radius: 0.4vw;
+        padding: 0.7vw;
+        margin: auto;
+        width: 20vw;
+    }
+
+    .box-button {
+        margin-bottom: -2%;
+        background-color: #FAC710;
+        border: 2px solid #FAC710;
+        border-radius: 0.6vw;
+        color: white;
+        padding: 1vw 3vw;
+    }
+
+}
+
+/* Responsivo (801 a 1000px) */
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+
+    .box-form {
+        background-color: #F1E8BD;
+        border: 2px solid #E6AA0F;
+        border-radius: 4vw;
+        margin-top: 18.5%;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        width: 30vw;
+        padding: 1vw;
+        text-align: center;
+    }
+
+    .box-text {
+
+        font-family: Arial;
+        font-size: 2.5vw;
+
+
+    }
+
+    .box-input {
+        border: 2px solid #F1C248;
+        border-radius: 0.4vw;
+        margin: auto;
+        padding: 0.7vw;
+        width: 17.5vw;
+    }
+
+    .box-inputage {
+        border: 2px solid #F1C248;
+        border-radius: 0.4vw;
+        padding: 0.7vw;
+        margin: auto;
+        width: 17.5vw;
+    }
+
+    .box-button {
+        margin-bottom: -2%;
+        background-color: #FAC710;
+        border: 2px solid #FAC710;
+        border-radius: 0.6vw;
+        color: white;
+        padding: 0.9vw 2.9vw;
+    }
+
+}

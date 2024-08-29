@@ -1,0 +1,244 @@
+/* Bloco Header */
+.box-header {
+    background-color: #E6AA0F;
+    text-align: center;
+    padding: 2vh 5px;
+    max-width: 99%;
+    overflow: auto;
+}
+
+/* Logo Header */
+.box-header img {
+    margin-right: 70%;
+    max-width: 20vw;
+    max-height: 20vh;
+    margin-top: -8%;
+}
+
+/* Titulo Header */
+.box-header h1 {
+    margin-top: 4%;
+}
+
+/* Bloco Navegação */
+.box-nav {
+    background-color: #1A1A1A;
+    text-align: center;
+    padding: 8px;
+    width: 98.655%;
+    margin-bottom: 2%;
+}
+
+/* Texto da Navegação */
+.box-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Margem do Texto - Navegação */
+.a-margem {
+    margin-right: 20%;
+}
+
+/* Box Article1 */
+.box1-art {
+    background-color: #FBC333;
+    width: 45%;
+    text-align: center;
+    padding: 8px;
+    margin-left: 1%;
+}
+
+/* Imagem do Article */
+.box1-art img {
+    max-height: 30vh;
+    float: left;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+/* Section Article */
+.box-art-sect {
+    background-color: #FBC333;
+    padding: 5px;
+    border: 2px solid black;
+    text-align: justify;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+/* Paragrafo Article */
+.box-art-sect p {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+/* Box Article 2 */
+.box2-art {
+    background-color: #FBC333;
+    width: 34%;
+    text-align: center;
+    padding: 5px;
+    margin-left: 48%;
+    margin-top: -31.3%;
+}
+
+/* Box Aside - Top Musicas */
+.box-aside {
+    background-color: #FBC333;
+    width: 15%;
+    text-align: center;
+    padding: 5px;
+    margin-top: -28.6%;
+    margin-left: 84%;
+}
+
+/* Box dentro do Aside */
+.box-asd-sect {
+    border: 2px solid black;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+/* Video do Youtube */
+.video-yt {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+/* Box do Audio */
+.box-audio {
+    border: 2px solid black;
+    width: 40%;
+    margin-left: 55%;
+    margin-top: -18%;
+    background-color: #FBC333;
+}
+
+/* Imagem do Audio */
+.box-audio img {
+    max-height: 20vh;
+    border-radius: 2vw;
+    margin-left: 2%;
+}
+
+/* Audio */
+.box-audio audio {
+    margin-left: 10%;
+    margin-bottom: 8%;
+}
+
+/* Rodape */
+.box-footer {
+    margin-top: 12%;
+    background-color: black;
+    border: 2px solid black;
+    padding: 1vw;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    /* Box Cabeçalho */
+    .box-header {
+        width: 100%;
+    }
+
+    /* Imagem do Article 1 */
+    .box1-art img {
+        display: none;
+    }
+
+    /* Box do Article 1 */
+    .box1-art {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2%;
+    }
+
+    /* Box do Article 2 */
+    .box2-art {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2%;
+    }
+
+    /* Box Aside - Musicas */
+    .box-aside {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 2%;
+    }
+
+    
+    .box-video-yt {
+        margin-bottom: 2%;
+        text-align: center;
+    }
+
+    /* Youtube */
+    .video-yt {
+        margin: auto;
+    }
+
+
+    /* Caixa do Audio */
+    .box-audio {
+        margin: auto;
+        width: 70%;
+    }
+
+    .box-audio audio {
+        width: 50%;
+    }
+
+    .box-audio
+
+}
+
+@media screen and (min-width:801px) and (max-width:1000px) {
+    /* Box Article 1 */
+    .box1-art {
+        margin: auto;
+        width: 98%;
+        margin-bottom: 2%;
+    }
+
+    /* Imagem do Article 1 */
+    .box1-art img {
+        margin: auto;
+        margin-top: 1.2%;
+        margin-right: 2%;
+    }
+
+    /* Box Article 2 */
+    .box2-art {
+        margin: auto;
+        width: 98%;
+        margin-bottom: 2%;
+    }
+
+    /* Box Aside - Musicas */
+    .box-aside {
+        margin: auto;
+        width: 70%;
+        margin-bottom: 2%;
+    }
+
+    /* Youtube */
+    .video-yt {
+        margin: auto;
+        margin-bottom: 2%;
+        margin-left: 20%;
+    }
+
+    /* Box do Audio */
+    .box-audio{
+        margin: auto;
+        width: 60%;
+        margin-bottom: -2%;
+    }
+}

@@ -1,0 +1,44 @@
+Medidas responsivas
+    1em = 16px 
+        -> Mais usado para fonte ou margem
+        -> A medida é relativa a Classe Pai
+    1rem
+        -> Igual o "EM" porém não á conflito entre classes (pai)
+
+    1vw 
+        -> medida para largura e fontes 
+        -> A medida 1vw é igual a 1/100 da largura da viewport
+    1vh 
+        -> medida para altura
+        -> A medida 1vh é igual a 1/100 da altura da viewport
+
+    vmin
+    
+    vmax
+.
+
+Dicas
+    Fontes
+        Sempre optar por fontes (font-family) padrões.
+    Imagens
+        Optar por imagens do tipo bitmap (png, jpg).
+    Overflow
+        Barra de rolagem (quando for estourar a borda, adiciona uma barra de rolagem)
+        (overflow:auto)
+    Box-Sizing nos Containers
+        Para evitar que o tamanho dos containers (div, section...) sejam afetados
+        pelas propriedades do padding e border e causem uma distorção não esperada.
+    MediaQueries
+        Sempre usar no final do CSS! (Não colocar nenhuma classe depois!)
+        Pode colocar outro media queries depois do outro.
+    Imagens
+        Para imagens desnecessárias, pode remove-las utilizando display.
+        display: none
+.
+
+Dúvidas 
+    Padding usar qual medida?
+        Até 10 px, pode manter px.
+    Não precisa por screen na hora que abrir a media?
+        
+.
