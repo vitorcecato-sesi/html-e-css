@@ -1,0 +1,39 @@
+/*
+Algoritimo  : Atividade Margem - CSS
+Disciplina  : [Desenvolvimento de Sistemas]
+Professor   : Antonio Tupinamba e Leandro Grosso
+Descrição   : Atividade onde utilizamos o CSS externo.
+Autor(a)    : Laura Betti Migliaccio; Lucas Casagrande da Silva; Pietro Melle; Pyetro Joaquim Taborda Nunes; Vitor Geraldo Cecato.
+Data atual  : 01/08/2024
+*/
+
+.titulo {
+    background-color: red;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.imagemtime {
+    margin-left: 5%;
+    margin-right: 70%;
+    margin-top: 1%;
+}
+
+.link {
+    background-color: red;
+    padding: 20px;
+    border: 2px solid black;
+    margin-top: 20%;
+    margin-left: 40%;
+    margin-right: 30%;
+}
+
+.historicotorcida {
+    background-color: red;
+    margin-top: 40%;
+    margin-left: 5%;
+    margin-right: 60%;
+}

@@ -1,0 +1,42 @@
+.topbottom {
+    background-color: white;
+    border: 2px solid red;
+    text-align: center;
+    font-family: Arial;
+    padding: 10px;
+}
+
+.imagem {
+    background-color: red;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.link {
+    background-color: black;
+    border: 2px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+.naoordenada {
+    background-color: red;
+    border: 2px solid white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.historico {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.descritiva {
+    background-color: red;
+    border: 2px solid white;
+    font-size: 20px;
+    padding: 10px;
+}
