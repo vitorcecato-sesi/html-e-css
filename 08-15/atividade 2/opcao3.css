@@ -1,0 +1,22 @@
+body {
+    background-color: bisque;
+}
+
+.titulo {
+    background-color: gray;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 20%;
+
+}
+
+.texto {
+    background-color: gold;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 30%;
+}

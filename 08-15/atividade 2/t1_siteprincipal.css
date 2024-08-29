@@ -1,0 +1,120 @@
+/* 
+Algoritimo  : Site Responsivo - HTML
+Disciplina  : [Desenvolvimento de Sistemas]
+Professor   : Antonio Tupinamba e Leandro Grosso
+Descrição   : Tornando o Site Responsivo .
+Autor(a)    : Laura Betti Migliaccio; Lucas Casagrande da Silva; Milena Oliveira; Pietro Melle; Pyetro Joaquim Taborda Nunes; Vitor Geraldo Cecato.
+Data atual  : 08/08/2024
+*/
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    font-size: 1.8vw;
+}
+
+h2 {
+    font-size: 1.8vw;
+}
+
+h3 {
+    font-size: 1.3vw;
+}
+
+p {
+    font-size: 1vw;
+}
+
+li {
+    font-size: 1vw;
+}
+
+/* Imagem inicio do site */
+
+
+.form-img {
+    max-width: 18%;
+    max-height: 18%;
+}
+
+/* Bloco da introdução do site */
+.form-intro {
+    background-color: greenyellow;
+    border: 2px solid black;
+    padding: 2vw;
+    text-align: center;
+    max-width: 50%;
+    margin-top: -15%;
+    margin-bottom: 2%;
+}
+
+/* Lista de opção (links) */
+.form-lista1 {
+    background-color: greenyellow;
+    border: 2px solid black;
+    padding: 2vw;
+    text-align: center;
+    max-width: 10%;
+    max-height: 100%;
+    font-size: 1vw;
+}
+
+/* Bloco de texto 1 */
+.form-bloco1 {
+    background-color: red;
+    border: 2px solid black;
+    padding: 2vw;
+    max-width: 60%;
+    max-height: 100%;
+    margin-top: -18%;
+    text-align: justify;
+}
+
+/* Imagem bloco 1 */
+.form-img2 {
+    float: left;
+    max-width: 38%;
+    max-height: 30%;
+    border-radius: 25%;
+    margin-right: 2vw;
+}
+
+/* Bloco de texto 2 */
+.form-bloco2 {
+    background-color: orange;
+    border: 2px solid black;
+    padding: 2vw;
+    max-width: 60%;
+    text-align: justify;
+}
+
+/* Imagem bloco 2 */
+.form-img3 {
+    float: right;
+    margin-left: 2vw;
+    max-width: 20%;
+    max-height: 20%;
+}
+
+/* Lista ordenada - Promoções */
+.form-lista2 {
+    background-color: greenyellow;
+    border: 2px solid black;
+    padding: 2vw;
+    text-align: center;
+    max-width: 12%;
+    max-height: 100%;
+    margin-left: 84%;
+    margin-top: -36.8%;
+    margin-bottom: 12%;
+}
+
+/* Rodape - Contato */
+.form-rodape {
+    background-color: red;
+    border: 2px solid black;
+    padding: 1vw;
+    text-align: center;
+}
