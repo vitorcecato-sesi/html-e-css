@@ -1,0 +1,10 @@
+Materiais
+
+W3school - HTML
+https://www.w3schools.com/html/
+
+W3school - CSS
+https://www.w3schools.com/css/default.asp
+
+Notion (Sor Leandro) - Formulario
+https://leandrogrosso.notion.site/Formul-rios-em-HTML-6686814d460f4b40a83e8249f89cb6e3
